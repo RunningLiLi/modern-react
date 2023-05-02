@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](///compare/v1.1.0...v1.1.1) (2023-05-02)
+
+### Bug Fixes
+
+- 修改 app 内容 74c7fad
+- **app.tsx:** 修改 app 内容 bac632b
+
 ## 1.1.0 (2023-05-02)
 
 ### Features
