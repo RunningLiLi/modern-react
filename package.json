@@ -7,7 +7,13 @@
     "dev": "vite",
     "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "cz": "git-cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "@commitlint/cz-commitlint"
+    }
   },
   "husky": {
     "hooks": {
@@ -18,6 +24,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@commitlint/cz-commitlint": "^17.5.0",
+    "commitizen": "^4.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router": "^6.11.0",
