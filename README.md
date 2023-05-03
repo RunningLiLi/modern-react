@@ -1,6 +1,6 @@
 # Modern React Template
 
-如果你不想自己配置一系列的 linter，或者其他工具，可以试试这个。
+如果你不想麻烦自己配置一系列的 linter，或者其他工具，可以试试这个。
 
 ## Getting started
 
@@ -17,6 +17,18 @@ pnpm install
 # develop
 pnpm run dev
 ```
+
+## Git
+
+```shell
+#add
+git add .
+
+#commit,有友好的提示
+pnpm run cz
+```
+
+使用 `standard-version `自动更新日志，版本信息等
 
 ## Build
 
@@ -43,15 +55,18 @@ pnpm format
 - React
 - React Router
 - TypeScript
-- Axios
-- MSW
 - Vite
 - ESLint
 - Prettier
 - Commitlint
+- husky
+- standard-version
+- commitizen
+- pretty-quick
+- lint-staged
 
 ## License
 
-[MIT](https://github.com/985563349/react-vite-template/blob/main/LICENSE)
+MIT
 
-Copyright (c) 2022 Jee
+Copyright (c) 2023 runninglili
