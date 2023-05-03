@@ -5,12 +5,14 @@
   "main": "index.js",
   "scripts": {
     "dev": "vite",
-    "lint": "eslint .",
     "build": "vite build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install",
     "cz": "git-cz",
-    "ci": "pnpm exec pretty-quick --staged&&pnpm exec lint-staged"
+    "ci": "pnpm exec pretty-quick --staged&&pnpm exec lint-staged",
+    "preview": "vite preview",
+    "lint": "eslint --cache --fix --ext .js,.ts,.jsx,.tsx src",
+    "format": "prettier --cache --write \"src/**/*.{js,jsx,ts,tsx,css,json,md}\""
   },
   "config": {
     "commitizen": {
