@@ -9,7 +9,8 @@
     "build": "vite build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install",
-    "cz": "git-cz"
+    "cz": "git-cz",
+    "ci": "pnpm exec pretty-quick --staged&&pnpm exec lint-staged"
   },
   "config": {
     "commitizen": {
@@ -25,8 +26,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@commitlint/cz-commitlint": "^17.5.0",
-    "commitizen": "^4.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router": "^6.11.0",
@@ -35,9 +34,11 @@
   "devDependencies": {
     "@commitlint/cli": "^17.6.1",
     "@commitlint/config-conventional": "^17.6.1",
+    "@commitlint/cz-commitlint": "^17.5.0",
     "@typescript-eslint/eslint-plugin": "^5.59.2",
     "@typescript-eslint/parser": "^5.59.2",
     "@vitejs/plugin-react-swc": "^3.3.0",
+    "commitizen": "^4.3.0",
     "eslint": "^8.39.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.32.2",
