@@ -1,6 +1,6 @@
 # Modern React Template
 
-如果你不想麻烦自己配置一系列的 linter，或者其他工具，可以试试这个。
+如果你不想麻烦自己配置一系列的 linter，actions等，可以试试这个。
 
 ## Getting started
 
