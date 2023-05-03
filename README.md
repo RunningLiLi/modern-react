@@ -2,6 +2,10 @@
 
 如果你不想麻烦自己配置一系列的 linter，actions等，可以试试这个。
 
+![](https://img.shields.io/badge/language-react-rgb(20,158,202).svg)
+![](https://img.shields.io/badge/build-passing-brightgreen)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![pnpm](https://img.shields.io/badge/pnpm-enabled-brightgreen.svg)](https://pnpm.js.org/)
 ## Getting started
 
 ```shell
