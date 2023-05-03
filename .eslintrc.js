@@ -8,6 +8,7 @@ module.exports = {
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
+    "prettier",
   ],
   overrides: [],
   parser: "@typescript-eslint/parser",
@@ -15,10 +16,8 @@ module.exports = {
     ecmaVersion: "latest",
     sourceType: "module",
   },
-  plugins: ["react", "@typescript-eslint", "prettier"],
-  rules: {
-    "prettier/prettier": "error",
-  },
+  plugins: ["react", "@typescript-eslint"],
+  rules: {},
   settings: {
     react: {
       version: "detect",
