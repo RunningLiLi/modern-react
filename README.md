@@ -6,7 +6,7 @@
 
 ```shell
 # clone the project
-git clone git@github.com:RunningLiLi/modern-react.git
+git clone git@github.com:RunningLiLi/modern-react-template.git
 
 # enter the project directory
 cd modern-react-template
